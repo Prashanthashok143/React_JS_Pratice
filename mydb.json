@@ -1,0 +1,108 @@
+{
+  "posts": [
+    {
+      "title": "hello",
+      "author": "eeeeeee",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "movie": "p",
+      "director": "Shangarapu"
+    },
+    {
+      "movie": "",
+      "director": "",
+      "id": 2
+    },
+    {
+      "movie": "",
+      "director": "",
+      "id": 3
+    },
+    {
+      "movie": "",
+      "director": "",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todo": [
+    {
+      "id": 1,
+      "movie": "SSMB29",
+      "actor": "Mahesh Babu 😎"
+    },
+    {
+      "movie": "Devara",
+      "actor": "Jr.NTR🌊",
+      "id": 2
+    },
+    {
+      "movie": "OG",
+      "actor": "PK 🦁",
+      "id": 4
+    },
+    {
+      "movie": "Pushpa",
+      "actor": "AlluArjun 🔥",
+      "id": 5
+    },
+    {
+      "movie": "Kalki 2829",
+      "actor": "Praboss 🦸‍♀️",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "movie": "Thammudu",
+      "actor": "Nithin 🕶🕶"
+    }
+  ],
+  "AttendenceForm": [
+    {
+      "Firstname": "Prashanth",
+      "Lastname": "Shanigarapu",
+      "Contact": "09603049161",
+      "Email": "prashanthashok143@gmail.com",
+      "Date": "2024-05-17",
+      "Gender": "male",
+      "Feedback": "Nice Session",
+      "id": 1
+    },
+    {
+      "Firstname": "Ashok",
+      "Lastname": "Shanigarapu",
+      "Contact": "8179556208",
+      "Email": "ashokshanigarapu143@gmail.com",
+      "Date": "2024-05-17",
+      "Gender": "male",
+      "Feedback": "Greate Session",
+      "id": 2
+    },
+    {
+      "Firstname": "Prashanth",
+      "Lastname": "Shanigarapu",
+      "Contact": "09603049161",
+      "Email": "prashanthashok143@gmail.com",
+      "Date": "2024-05-17",
+      "Gender": "male",
+      "Feedback": "Nice Session,Thank You",
+      "id": 3
+    },
+    {
+      "Firstname": "satheesh",
+      "Lastname": "hhh",
+      "Contact": "123456789",
+      "Email": "ashok143@gmail.com",
+      "Date": "2024-05-18",
+      "Gender": "male",
+      "Feedback": "Greate Session",
+      "id": 4
+    }
+  ]
+}
