@@ -22,28 +22,31 @@ const BasicEx2 = () => {
 export default BasicEx2;
 
 
-const Show=()=>{
+const Show = () => {
+    useEffect(() => {
+        let i = 0;
+        let interval = setInterval(() => {
+            console.log(i++);
+            if (i > 5) {
+                clearInterval(interval);
+                console.log("Interval Cleared");
+            }
+        }, 1000);
 
-       useEffect(()=>{
-       let i=0;
-      let Interval=  setInterval(()=>{
-            console.log(i++)
-        },1000)
+        // Cleanup function to ensure the interval is cleared when the component unmounts
+        return () => {
+            clearInterval(interval);
+            console.log("Interval Cleared on Unmount");
+        };
+    }, []);
 
-        return ()=> {
-            console.log("Interval Cleared")
-         clearInterval(Interval)
-            
-    }
-
-    },[])
-    return(
+    return (
         <div>
-         <h1>Show</h1>
-            
+            <h1>Show</h1>
         </div>
-    )
-}
+    );
+};
+
 
 // uses :-- time triggers
 //2.creating websockets
