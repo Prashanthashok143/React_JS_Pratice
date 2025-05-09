@@ -2,13 +2,6 @@ import React, { useEffect, useState } from 'react'
 
 const BasicEx2 = () => {
     const [show, setShow] = useState(false);
- 
-
-  
-  
-
- 
-
   return (
     <div>
         <hr/>
@@ -21,7 +14,7 @@ const BasicEx2 = () => {
 
 export default BasicEx2;
 
-
+// show 1 ...
 const Show = () => {
     useEffect(() => {
         let i = 0;
@@ -47,6 +40,21 @@ const Show = () => {
     );
 };
 
+// Else use  SHow Comp 22...
+// const Show=()=>{
+//   useEffect(()=>{
+//     console.log("Component mounted");
+//     return (()=>{
+//       console.log("Unmounted")
+//     })
+//   })
+  
+//   return(
+//     <>
+//     <h1>Show Component</h1>
+//     </>
+//   )
+// }
 
 // uses :-- time triggers
 //2.creating websockets
